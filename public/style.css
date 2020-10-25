@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box; /* force la taille de la box sans padding margin */
+}
+#wrap
+{
+    margin: auto;
+    max-width: 1000px;
+}
+
+/*
+**************************
+NAV
+**************************
+*/
+#nav-box
+{
+    background-color: rgba(80, 77, 77, 0.5)
+}
+#nav-box h1,#nav-box h2
+{
+    margin: auto;
+    text-align: center;
+}
+#nav-box h2
+{
+    margin-left: 2em;
+}
+
+/*
+**************************
+HEADER
+**************************
+*/
+
+#head-box
+{
+    text-align: justify;
+    margin-top: 2em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: rgba(136, 129, 129, 0.5)
+}
+#head-box p
+{
+    width: 60%;
+}
+
+/*
+**************************
+DESCRIPTION
+**************************
+*/
+
+#description-box
+{
+    margin-top: 2em;
+    text-align: justify;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+    
+}
+#description-box p
+{
+    width: 60%;
+    background-color: rgba(80, 77, 77, 0.5)
+}
+
+/*
+**************************
+INFO
+**************************
+*/
+
+#info-box
+{
+    margin-top: 3em;
+    background-color: rgba(165, 148, 148, 0.5)
+}
+
+/*
+**************************
+MAP
+**************************
+*/
+
+#map-box
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*
+**************************
+FOOTER
+**************************
+*/
+#mentions
+{
+    display: flex ;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+#infos-legal
+{
+    display: none;
+}
